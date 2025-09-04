@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color: #4C585B;
+    --secondary-color: #A5BFCC;
+    --terciary-color: #F4EDD3;
+    --primary-color-hover: #7E99A3;
+    /* --terciary-color-hover: #739EC9; */
+
+    --primary-font-style: "Krona One", sans-serif;
+    --secondary-font-style: "Montserrat", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 2% 0 0 15%;
+}
+
+.navbar{
+    display: flex;
+    gap: 80px;
+}
+
+.navbar__link{
+    color: var(--terciary-color);
+    text-decoration: none;
+    font-family: var(--secondary-font-style);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/* .navbar__link:hover{
+    color: var(--terciary-color-hover);
+} */
+
+.contentPresentation{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contentPresentation__infoSection{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contentPresentation_infoSection_title{
+    font-size: 36px;
+    font-family: var(--primary-font-style);
+}
+
+.titleStrong{
+    color: var(--terciary-color);
+}
+
+.contentPresentation_infoSection_subtitle{
+    font-size: 24px;
+    font-family: var(--secondary-font-style);
+    font-weight: 400;
+}
+
+.contentPresentation__linksSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.contentPresentation_linksSection_subtitle{
+    font-family: var(--primary-font-style);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.contentPresentation_linksSection_button{
+    color: var(--secondary-color);
+    width: 378px;
+    gap: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid var(--terciary-color);
+    border-radius: 8px;
+    font-family: var(--secondary-font-style);
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contentPresentation_linksSection_button:hover{
+    color: var(--secondary-color);
+    background-color: var(--primary-color-hover);
+}
+
+.footer{
+    background-color: var(--terciary-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 24px;
+    font-family: var(--secondary-font-style);
+    font-size: 24px;
+    font-weight: 400;
+}
