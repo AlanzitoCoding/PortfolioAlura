@@ -47,7 +47,7 @@ body{
 } */
 
 .contentPresentation{
-    padding: 5% 8%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -128,7 +128,7 @@ body{
 
 @media(max-width: 1023px){
     .header{
-        padding: 10% 0 0 0;
+        padding: 10%;
     }
     
     .navbar{
@@ -137,6 +137,10 @@ body{
 
     .contentPresentation{
         flex-direction: column-reverse;
+        padding: 5%;
     }
 
+    .contentPresentation__infoSection{
+        width: 100%;
+    }
 }
